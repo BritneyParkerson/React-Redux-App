@@ -21,9 +21,8 @@ const Recipes = props => {
   return (
     <Container>
       <RecipeContainer>
-        <RecipeHeading>{props.info.name}</RecipeHeading>
-        <PuppyRecipes>{props.info.birthday}</PuppyRecipes>
-        <PuppyRecipes>{props.info.occupation}</PuppyRecipes>
+        <RecipeHeading>{props.info.title}</RecipeHeading>
+        <PuppyRecipes>{props.info.ingredients}</PuppyRecipes>
       </RecipeContainer>
     </Container>
   );
